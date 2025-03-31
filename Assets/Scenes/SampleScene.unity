@@ -5964,7 +5964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6348a4e5acfd074fbbb2c0dd3109f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 10
+  maxShield: 100
   currentShield: 0
   shieldBar: {fileID: 856496982}
   damage: 5
@@ -6353,7 +6353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6fd74cd280c2eb4e986ab2729c0e5a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 50
+  maxShield: 100
   currentShield: 0
   shieldBar: {fileID: 937122457}
   damage: 5
