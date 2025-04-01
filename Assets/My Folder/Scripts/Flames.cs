@@ -19,8 +19,10 @@ public class Flames : MonoBehaviour
     {
         if (target != null)
         {
-            // Faz o objeto olhar para a mira (target) a cada frame
-            transform.LookAt(target.transform);
+           // Faz a torre olhar para o alvo
+            Vector3 directionToTarget = target.transform.position - transform.position;
+            Quaternion lookRotation = Quaternion.LookRotation(directionToTarget);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, Time.deltaTime * 100f); // Rotaciona suavemente
         }
     }
 

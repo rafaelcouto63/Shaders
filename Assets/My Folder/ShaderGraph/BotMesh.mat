@@ -40,9 +40,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _CuttOff: 1
-    - _EdgeSize: 0.289
+    - _EdgeSize: 0.301
+    - _NoiseScale: 16
     m_Colors:
-    - _EdgeColor: {r: 0.3990965, g: 0, b: 1, a: 1}
-    - _MainColor: {r: 0, g: 0.010115714, b: 0.4528302, a: 0.77254903}
+    - _EdgeColor: {r: 0.14431292, g: 0.47615078, b: 0.6509434, a: 1}
+    - _MainColor: {r: 0.28617838, g: 0.29323298, b: 0.5566038, a: 0.77254903}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
