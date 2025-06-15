@@ -1,9 +1,11 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class Flames : MonoBehaviour
 {
-    public ParticleSystem fireParticles; // Sistema de partículas para o fogo
+    public VisualEffect fireVFX; // Sistema de partículas para o fogo
+    public ParticleSystem fireParticles;
     public float fireDuration = 3f;      // Duração do fogo ativo (em segundos)
     public float waitDuration = 3f;      // Duração de espera entre os disparos de fogo (em segundos)
 
@@ -32,12 +34,14 @@ public class Flames : MonoBehaviour
         {
             // Ativa o fogo (inicia o sistema de partículas)
             fireParticles.Play();
+            fireVFX.Play();
 
             // Espera pelo tempo que o fogo deve durar
             yield return new WaitForSeconds(fireDuration);
 
             // Desativa o fogo (para o sistema de partículas)
             fireParticles.Stop();
+            fireVFX.Stop();
 
             // Espera antes de iniciar o próximo ciclo de fogo
             yield return new WaitForSeconds(waitDuration);

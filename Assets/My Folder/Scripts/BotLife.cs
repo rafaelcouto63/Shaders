@@ -10,7 +10,7 @@ public class BotLife : MonoBehaviour
     public float damageFire = 1f;
 
     private Material botMaterial; // Material do bot
-    public float cutoffSpeed = 0.1f; // Velocidade de transição do cutoff (quanto mais baixo, mais rápido diminui)'
+    public float cutoffSpeed = 0.1f; // Velocidade de transição do cutoff (quanto mais baixo, mais rápido diminui)
 
     void Start()
     {

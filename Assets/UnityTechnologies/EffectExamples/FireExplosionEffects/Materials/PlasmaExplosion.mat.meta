@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f97dba10754bee4ca6a14805bbedbaf
+timeCreated: 1472829232
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 127325
+  packageName: Particle Pack
+  packageVersion: 3.1
+  assetPath: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosion.mat
+  uploadId: 691001
